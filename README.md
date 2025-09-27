@@ -1,32 +1,33 @@
-# M|Dev – Interactive Rain Scene with Lightning
+# Liquid Morphing Cards with Particles
 
-A mesmerizing 3D rain animation with water ripple effects, built with pure **HTML / CSS / JS**, featuring interactive controls for speed and density.
+A mesmerizing interactive animation featuring a main card that morphs like a liquid blob, generating smaller cards with their own texts and floating particle effects, built with pure **HTML / CSS / JS**. Perfect for mobile and short Instagram reels.
 
 ### ✨ Features
-- Realistic 3D rain drops with randomized positions  
-- Expanding ripple effect where raindrops hit the water surface  
-- Interactive controls to adjust:
-  - Rain **density** (number of drops)  
-  - Rain **speed** (animation duration)  
-- Random lightning flashes for dynamic atmosphere  
-- Fully responsive and lightweight  
+- Main card with **liquid morphing effect** using dynamic `border-radius`  
+- Generates **3 smaller interactive blobs** on first touch/click  
+- Animated **gradient and glow** effects on active cards  
+- Floating **particles** in the background for a cinematic atmosphere  
+- Fully **responsive** and mobile-optimized  
+- Smooth, continuous animations suitable for short video content  
 
 ### ⚡ How to Use
-1. Open `index.html` in a browser.  
-2. Use the sliders in the top-right corner to adjust rain speed and density.  
-3. Watch the drops fall in 3D space and interact with the water surface.
+1. Open `index.html` in a modern browser.  
+2. Tap/click the main card to trigger the animation and generate the smaller blobs.  
+3. Interact with all cards to see the morphing and glow effects in action.  
+4. Observe the background particles flowing around the cards for a dynamic effect.  
 
 ### 💻 Technologies Used
-- **HTML5** – Semantic structure  
-- **CSS3** – 3D transforms, gradients, and animations  
-- **JavaScript** – Dynamic drop creation, lightning effects, and interactive controls  
+- **HTML5** – Semantic structure for main and small cards  
+- **CSS3** – Gradients, box-shadow, border-radius morphing, and transitions  
+- **JavaScript** – Dynamic creation of blobs, morphing logic, and particle animation using Canvas  
 
 ### 🎨 Customization
-- Change colors of raindrops, ripples, or lightning in the CSS variables  
-- Adjust maximum drops or speed ranges in the JS for different intensities  
+- Adjust the **number of particles** by changing the `particleCount` in `script.js`  
+- Modify **colors of gradients or glow** directly in `style.css`  
+- Change **size or positions** of generated blobs for different layouts  
 
 ### 🌐 Demo
-Open the project locally or host it on GitHub Pages to see the rain animation in action.
+Open the project locally or host it on GitHub Pages to experience the interactive liquid morphing cards and particle animation.
 
 ---
 
